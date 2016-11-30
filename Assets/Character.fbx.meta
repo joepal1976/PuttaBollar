@@ -68,6 +68,7 @@ ModelImporter:
     100120: upperarm_l
     100122: upperarm_r
     100124: vestMesh
+    100126: pants1Mesh
     400000: ball_l
     400002: ball_r
     400004: beltMesh
@@ -131,6 +132,7 @@ ModelImporter:
     400120: upperarm_l
     400122: upperarm_r
     400124: vestMesh
+    400126: pants1Mesh
     4300000: characterMesh
     4300002: short02Mesh
     4300004: high-polyMesh
@@ -139,6 +141,7 @@ ModelImporter:
     4300010: vestMesh
     4300012: shirtMesh
     4300014: pantsMesh
+    4300016: pants1Mesh
     9500000: //RootNode
     13700000: beltMesh
     13700002: characterMesh
@@ -148,6 +151,7 @@ ModelImporter:
     13700010: short02Mesh
     13700012: sneakersMesh
     13700014: vestMesh
+    13700016: pants1Mesh
   materials:
     importMaterials: 1
     materialName: 0
