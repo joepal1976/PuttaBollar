@@ -5,8 +5,8 @@ public class Goal : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
-	}
+        GetComponent<AudioSource>().playOnAwake = false;
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -17,6 +17,7 @@ public class Goal : MonoBehaviour {
     {
         Debug.Log("Trigger",other);
         //Destroy(other.gameObject);
+        GetComponent<AudioSource>().Play();
     }
 
     void OnCollisionEnter(Collision collision)
