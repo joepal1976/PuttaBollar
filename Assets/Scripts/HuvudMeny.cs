@@ -8,7 +8,7 @@ public class HuvudMeny : MonoBehaviour
     public void StartClick()
     {
         Debug.Log("Tryckning på starta");
-        SceneManager.LoadScene("Bana1");
+        SceneManager.LoadScene("Bana2");
     }
 
     public void ExitClick()

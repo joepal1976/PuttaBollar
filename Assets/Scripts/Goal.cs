@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class Goal : MonoBehaviour {
 
@@ -18,6 +19,7 @@ public class Goal : MonoBehaviour {
         Debug.Log("Trigger",other);
         //Destroy(other.gameObject);
         GetComponent<AudioSource>().Play();
+        SceneManager.LoadScene("Bana1");
     }
 
     void OnCollisionEnter(Collision collision)
